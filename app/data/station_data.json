@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    "Platform_3",
+    "Stairs_A",
+    "Elevator_A",
+    "Central_Tunnel",
+    "Stairs_B",
+    "Elevator_B",
+    "Platform_7"
+  ],
+  "edges": [
+    {"from": "Platform_3", "to": "Stairs_A", "time": 1, "type": "stairs"},
+    {"from": "Stairs_A", "to": "Central_Tunnel", "time": 2, "type": "walk"},
+    {"from": "Central_Tunnel", "to": "Stairs_B", "time": 2, "type": "walk"},
+    {"from": "Stairs_B", "to": "Platform_7", "time": 1, "type": "stairs"},
+
+    {"from": "Platform_3", "to": "Elevator_A", "time": 2, "type": "walk"},
+    {"from": "Elevator_A", "to": "Central_Tunnel", "time": 2, "type": "lift"},
+
+    {"from": "Central_Tunnel", "to": "Elevator_B", "time": 2, "type": "walk"},
+    {"from": "Elevator_B", "to": "Platform_7", "time": 2, "type": "lift"}
+  ]
+}
