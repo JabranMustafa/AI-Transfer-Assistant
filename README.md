@@ -94,6 +94,19 @@ python run_server.py
 
 ---
 
+## 🎥 Project Demo Video
+
+The project demo video is available in the **Releases/Tags** section of this repository.
+
+### How to Download
+
+1. Click on **Releases** (or **Tags**) at the right side of this repository.
+2. Open the latest release (`v1.0.0`).
+3. Under **Assets**, download **demo.mp4**.
+4. Watch the complete project demonstration.
+
+> 📹 The demo video showcases the application's features, workflow, and user interface.
+
 ## 👤 Author
 
 Jabran Mustafa  
